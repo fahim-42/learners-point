@@ -1,3 +1,7 @@
 .main-body {
     background-color: rgb(220, 220, 220);
 }
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import banner1 from '../../images/banner1.jpg';
 import banner2 from '../../images/banner2.jpg';
 import banner3 from '../../images/banner3.webp';
-import Services from '../Services/Services';
+import Course from '../Course/Course';
 import './Home.css';
 
 const Home = () => {
+    const [services, setServices] = useState([]);
+    useEffect(() => {
+        fetch('./courses.JSON')
+            .then(res => res.json())
+            .then(data => setServices(data));
+    }, [])
     return (
         <div>
             <Carousel>
@@ -33,9 +39,15 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
 
-            <h3 className="bg-primary p-3 text-white m-0 fw-bolder fst-italic">Our Services</h3>
             <div className="main-body">
-                <Services></Services>
+                <h3 className="bg-primary p-3 text-white m-0 fw-bolder fst-italic">Our Services</h3>
+                <div className="services col-lg-10 m-auto">
+                    {
+                        services.slice(0, 4).map(service => <Course
+                            key={service.id}
+                            course={service}></Course>)
+                    }
+                </div>
             </div>
 
 

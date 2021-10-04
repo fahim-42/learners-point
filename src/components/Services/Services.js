@@ -7,7 +7,7 @@ const Services = () => {
     useEffect(() => {
         fetch('./courses.JSON')
             .then(res => res.json())
-            .then(data => setCourses(data))
+            .then(data => setCourses(data));
     }, [])
 
     return (
