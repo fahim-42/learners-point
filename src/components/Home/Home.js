@@ -1,11 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import banner1 from '../../images/banner1.jpg';
-import banner2 from '../../images/banner5.webp';
-import banner3 from '../../images/banner3.jpg';
+import banner2 from '../../images/banner2.jpg';
+import banner3 from '../../images/banner3.webp';
 import Services from '../Services/Services';
+import './Home.css';
 
-const Home = () => {
+const Home = (props) => {
     return (
         <div>
             <Carousel>
@@ -32,9 +33,11 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
 
-            <h3 className="bg-primary p-3 text-white">Our Services</h3>
+            <h3 className="bg-primary p-3 text-white m-0 fw-bolder fst-italic">Our Services</h3>
+            <div className="main-body">
+                <Services></Services>
+            </div>
 
-            <Services></Services>
 
         </div>
     );

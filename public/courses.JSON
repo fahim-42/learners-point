@@ -4,7 +4,7 @@
         "course": "Basic English",
         "level": "Novice",
         "price": 1500,
-        "duration": "03:00 hrs",
+        "duration": "03.00 hrs",
         "seat": 28
     },
     {
@@ -12,7 +12,7 @@
         "course": "Basic English Speaking",
         "level": "Novice",
         "price": 1000,
-        "duration": "02:15 hrs",
+        "duration": "02.15 hrs",
         "seat": 23
     },
     {
@@ -20,7 +20,7 @@
         "course": "Advance English ",
         "level": "Intermediate",
         "price": 300,
-        "duration": "05:00 hrs",
+        "duration": "05.00 hrs",
         "seat": 32
     },
     {
@@ -28,7 +28,7 @@
         "course": "English Crash Course",
         "level": "Novice",
         "price": 5000,
-        "duration": "08:00 hrs",
+        "duration": "08.00 hrs",
         "seat": 13
     },
     {
@@ -36,7 +36,7 @@
         "course": "IELTS for Beginners",
         "level": "Intermediate",
         "price": 6500,
-        "duration": "42:00 hrs",
+        "duration": "42.00 hrs",
         "seat": 47
     },
     {
@@ -44,7 +44,7 @@
         "course": "Advance IELTS",
         "level": "Superior",
         "price": 15000,
-        "duration": "90:00 hrs",
+        "duration": "90.00 hrs",
         "seat": 52
     },
     {
@@ -52,7 +52,7 @@
         "course": "IELTS Crash Course",
         "level": "Superior",
         "price": 21000,
-        "duration": "55:00 hrs",
+        "duration": "55.00 hrs",
         "seat": 21
     },
     {
@@ -60,7 +60,7 @@
         "course": "English AtoZ",
         "level": "Novice",
         "price": 27000,
-        "duration": "300:00 hrs",
+        "duration": "300.00 hrs",
         "seat": 64
     }
 ]
