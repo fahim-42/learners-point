@@ -6,7 +6,7 @@ import banner3 from '../../images/banner3.webp';
 import Services from '../Services/Services';
 import './Home.css';
 
-const Home = (props) => {
+const Home = () => {
     return (
         <div>
             <Carousel>
